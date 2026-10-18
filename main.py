@@ -5,7 +5,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import speech_recognition as sr
 import pyttsx3 as py3
-
 dt = pd.read_csv("training.1600000.processed.noemoticon.csv", encoding='latin-1', header=None)
 dt = dt[[0,5]]
 dt.columns= ['sentiment', 'text']
