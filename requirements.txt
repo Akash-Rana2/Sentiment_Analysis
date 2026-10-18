@@ -1,0 +1,5 @@
+SpeechRecognition
+scikit-learn
+pandas 
+numpy
+pyttsx3
